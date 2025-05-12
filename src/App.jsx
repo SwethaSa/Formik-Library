@@ -5,7 +5,7 @@ import Dashboard from "./Pages/Dashboard";
 import Create from "./Pages/Create";
 import Edit from "./Pages/Edit";
 import View from "./Pages/View";
-import NavBar from "./components/NavBar";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
