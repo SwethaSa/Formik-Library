@@ -3,9 +3,9 @@ import React from "react";
 import { Paper, Typography, Stack } from "@mui/material";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
-import FormTextField from "../components/FormTextField";
-import FormSelect from "../components/FormSelect";
-import SubmitButton from "../components/SubmitButton";
+import FormTextField from "../Components/FormTextField";
+import FormSelect from "../Components/FormSelect";
+import SubmitButton from "../Components/SubmitButton";
 
 const validationSchema = Yup.object({
   title: Yup.string().required("Required"),
