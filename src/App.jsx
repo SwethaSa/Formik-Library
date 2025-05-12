@@ -5,7 +5,7 @@ import Dashboard from "./Pages/Dashboard";
 import Create from "./Pages/Create";
 import Edit from "./Pages/Edit";
 import View from "./Pages/View";
-import NavBar from "./Components/NavBar";
+import NavBar from "./Components/Nav";
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
         </Routes>
       </Container>
     </Router>
-    //
   );
 }
 
