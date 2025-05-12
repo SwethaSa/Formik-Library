@@ -2,7 +2,7 @@ import React from "react";
 import { AppBar, Toolbar, Typography, Button, Box } from "@mui/material";
 import { Link } from "react-router-dom";
 
-export default function NavBar() {
+function NavBar() {
   return (
     <AppBar position="sticky">
       <Toolbar>
@@ -21,3 +21,5 @@ export default function NavBar() {
     </AppBar>
   );
 }
+
+export default NavBar;
